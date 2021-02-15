@@ -1,0 +1,200 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+.main {
+	background-color: rgba(134, 157, 221, 0.4);
+	max-width: 1400px;
+	
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.logo__img {
+	max-width: 300px;
+	height: auto;
+	margin: 30px 0px 0px 400px;
+	display: block;
+	background-color: transparent;
+	border: 5px solid transparent;
+	display: block;
+	padding: 20px;
+	border-radius: 10%;
+}
+.logo__img:hover {
+	background: rgba(68, 68, 68, 0.4);
+	border: 5px solid transparent;
+}
+.logo__img:active {
+	background: rgba(212, 28, 28, 1);
+	border: 5px solid rgba(216, 23, 23, 1);
+}
+
+.button__logo::before {
+	content: "";
+	background: url("../img/Airbus_white.png") 100% 100%  no-repeat;
+	max-width: 300px;
+	height: auto;
+	margin: 100px 600px 0px 200px;
+	display: inline-block;
+}
+
+.button {
+	width: 500px;
+	height: 80px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	text-align: center;
+	background-color: transparent;
+	border: 5px solid transparent;
+	display: block;
+	padding: 20px;
+	border-radius: 10%;
+	margin: -80px 100px 0px 800px;
+}
+.button:hover {
+	background: rgba(68, 68, 68, 0.4);
+	border: 5px solid transparent;
+}
+.button:target {
+	background-color: teal;
+}
+.text {
+	font-family: arial;
+	font-size: 18px;
+	color: rgb(48, 48, 48);
+	margin: 0px 100px 10px 200px;
+	padding: 30px 50px 30px 100px;
+	background-color: rgba(68, 68, 68, 0.4);
+	border-radius: 13px;
+}
+
+.picture {
+	max-width: 600px;
+	height: auto;
+	margin: 20px 200px 20px 500px;
+}
+.picture:hover {
+	opacity: 0.5;
+}
+.picture:active {
+	opacity: 0.2;
+}
+
+.family {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: left;
+	line-height: 1.5;
+	margin: 30px 500px 10px 500px;
+	background: rgba(68, 68, 68, 0.4) url("../img/airbus-passenger-aircraft-family-formation2.jpg") 100% 100% no-repeat;
+	border-radius: 13px;
+	padding: 20px;
+}
+
+.family span {
+	text-transform: uppercase;
+}
+.link {
+	font-family: serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: rgb(7, 7, 7);
+	display: block;
+}
+.link:visited {
+	color: tomato;
+	text-decoration: line-through;
+}
+.span {
+	font-weight: 700;
+}
+.text {
+	background: rgba(68, 68, 68, 0.4) url("../img/airbus-passenger-aircraft-family-formation2.jpg") 100% 100% no-repeat;
+}
+.text:active {
+	background-color: rgba(255, 0, 200, 0.5);
+}
+.airbus {
+}
+.text__a {
+	font-family: arial;
+	font-size: 18px;
+	color: rgb(48, 48, 48);
+	margin: 0px 100px 10px 200px;
+	padding: 30px 50px 30px 100px;
+	background: rgba(68, 68, 68, 0.4) url("../img/airbus-passenger-aircraft-family-formation2.jpg") 100% 100% no-repeat;
+	border-radius: 13px;
+}
+.text__a:active {
+	background-color: rgba(186, 219, 94, 0.5);
+}
+.text__a::first-letter{
+	color: rgb(243, 8, 8);
+	font-weight: 700;
+	font-size: 20px;
+}
+span .pictures {
+	border: 5px solid rgba(32, 8, 168, 0.8);
+	border-radius: 13px;
+	max-width: 500px;
+	height: auto;
+}
+.picture__scnd {
+	display: inline-block;
+	border: 5px solid rgba(32, 8, 168, 0.8);
+	border-radius: 13px;
+	margin: 10px 20px 0px 200px;
+}
+.picture__third {
+	border: 5px solid rgba(32, 8, 168, 0.8);
+	border-radius: 13px;
+	display: inline-block;
+	margin: 10px 20px 0px 100px;
+}
+.picture__fourth {
+	border: 5px solid rgba(32, 8, 168, 0.8);
+	border-radius: 13px;
+	display: inline-block;
+	margin: 10px 20px 0px 100px;
+}
+.pictures:nth-child(2) {
+	border: 5px solid rgba(228, 31, 31, 0.8);
+	border-radius: 13px;
+	max-width: 500px;
+	height: auto;
+}
